@@ -1,3 +1,3 @@
 #!/bin/sh
  
-ln -s .zshrc ~/.zshrc
+ln -snvf "${HOME}/dotfiles/.zshrc" "${HOME}/.zshrc"
