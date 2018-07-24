@@ -145,3 +145,12 @@ bindkey '^r' peco-select-history
 
 autoload -U compinit
 compinit -u
+
+fpath=($HOME/.zsh/anyframe(N-/) $fpath)
+autoload -Uz anyframe-init
+anyframe-init
+
+## bash history一覧インクリメントサーチ & 実行
+bindkey '^r' anyframe-widget-execute-history
+## branch一覧をインクリメントサーチ & checkout
+bindkey '^b' anyframe-widget-checkout-git-branch
