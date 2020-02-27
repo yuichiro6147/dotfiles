@@ -18,4 +18,13 @@ mkdir -p $HOME/.zsh/
 cd $HOME/.zsh/
 git clone https://github.com/mollifier/anyframe.git
 
+# exa(https://github.com/ogham/exa)のインストール
+brew install exa
+
+# bat(https://github.com/sharkdp/bat)のインストール
+brew install bat
+
+# ripgrep(https://github.com/BurntSushi/ripgrep)のインストール
+brew install ripgrep
+
 source $HOME/.zshrc
