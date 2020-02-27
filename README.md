@@ -4,5 +4,7 @@
 ※home直下にcloneすること
 
 ## インストール手順
-cd ~/dotfiles
-sh installer.sh
+```console
+$ cd ~/dotfiles
+$ sh installer.sh
+```
